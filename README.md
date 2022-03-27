@@ -7,3 +7,8 @@ Find below screenshots from my completed work.
 
 Second screenshot
 <img src="https://github.com/Charlesu49/Video-Lab_CSS-Challenge/blob/master/images/webpage2.png" alt="screen shot">
+
+“image: Freepik.com”
+
+Image Source:
+All car images used for this project have been obtained from [FREEPIK](https://www.freepik.com "Visit Freepik Website")
