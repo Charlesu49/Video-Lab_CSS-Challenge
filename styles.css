@@ -1,0 +1,102 @@
+body {
+    background-color: #eee2dc;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    transition: 0.5s all;
+    /* we could use transition: 0.5s height width; but we use all so they can both be adjusted at once */
+}
+
+
+
+#main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-column-gap: 1em;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+li {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #123c69;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #123c69;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #123c69;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid > img {
+    margin: 0.4em;
+}
+
+#image-1 {
+    float: right;
+    margin: 1em;
+}
+
+.post {
+    border: 2px solid #ac3b61;
+    margin: 0.35em;
+    padding: 0.2em;
+    
+}
+
+img:hover{
+    width: 440px;
+    height: 240px;
+    border: 2px solid #78ade6;
+}
+
+.post > a {
+    text-decoration: none;
+    color: rgb(66, 116, 224);
+    font-family: 'Noto Sans', sans-serif;
+    transition: 0.5s color;
+}
+
+.post a:hover {
+    animation: link_animation 1s ease 0 1 normal ;
+    color: rgb(109, 147, 230);
+    
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.sidebar {
+    background: #edc7b7;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.content {
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
