@@ -2,8 +2,8 @@ This is a CSS challenge on styling using `GRID` , `FLEXBOX`, `ANIMATION` and oth
 
 Find below screenshots from my completed work.
 
-![screenshot](images/webpage1.jpg raw=true "screenshot")
+![screenshot](images/webpage1.png raw=true "screenshot")
 
 Second screenshot
 
-![screenshot](images/webpage2.jpg raw=true "screenshot")
+![screenshot](images/webpage2.png raw=true "screenshot")
